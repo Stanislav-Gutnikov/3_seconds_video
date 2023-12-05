@@ -1,10 +1,8 @@
 import cv2
-import os
 import numpy as np
 
 
 def main_func(string: str):
-    os.environ['NLS_LANG'] = 'AMERICAN.AL32UTF8'
     pict = np.zeros((100, 100, 3), dtype=np.uint8)
     text = string
     font = cv2.FONT_HERSHEY_COMPLEX
